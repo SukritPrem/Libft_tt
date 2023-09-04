@@ -6,12 +6,11 @@
 /*   By: spipitku <spipitku@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/31 13:31:59 by spipitku          #+#    #+#             */
-/*   Updated: 2023/09/03 20:28:49 by spipitku         ###   ########.fr       */
+/*   Updated: 2023/09/04 12:55:13 by spipitku         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-
 
 void	ft_lstclear(t_list **lst, void (*del)(void *))
 {
@@ -27,5 +26,3 @@ void	ft_lstclear(t_list **lst, void (*del)(void *))
 		*lst = tmp;
 	}
 }
-
-

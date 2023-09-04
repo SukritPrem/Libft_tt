@@ -6,7 +6,7 @@
 /*   By: spipitku <spipitku@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/26 19:42:16 by spipitku          #+#    #+#             */
-/*   Updated: 2023/09/02 18:21:39 by spipitku         ###   ########.fr       */
+/*   Updated: 2023/09/04 12:52:40 by spipitku         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,8 +15,8 @@
 char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 {
 	size_t		i;
-	char			*ptr;
-	size_t				member_in_s;
+	char		*ptr;
+	size_t		member_in_s;
 
 	i = 0;
 	if (!s)

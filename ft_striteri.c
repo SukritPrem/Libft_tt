@@ -6,7 +6,7 @@
 /*   By: spipitku <spipitku@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/28 07:55:53 by spipitku          #+#    #+#             */
-/*   Updated: 2023/09/03 20:05:36 by spipitku         ###   ########.fr       */
+/*   Updated: 2023/09/04 12:46:44 by spipitku         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,13 +17,12 @@ void	ft_striteri(char *s, void (*f)(unsigned int, char *))
 	size_t	i;
 
 	i = 0;
-	if (!s || !(*f))
+	if (!s)
 		return ;
-	while (*s)
+	while (*(s + i))
 	{
-		f(i, s);
+		f(i, s + i);
 		i++;
-		s++;
 	}
 }
 

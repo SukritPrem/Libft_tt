@@ -6,7 +6,7 @@
 /*   By: spipitku <spipitku@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/26 14:33:05 by spipitku          #+#    #+#             */
-/*   Updated: 2023/09/03 20:23:41 by spipitku         ###   ########.fr       */
+/*   Updated: 2023/09/04 12:51:34 by spipitku         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 char	*ft_strdup(const char *s)
 {
-	char	*ptr;
+	char		*ptr;
 	size_t		i;
 
 	i = 0;

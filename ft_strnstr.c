@@ -6,7 +6,7 @@
 /*   By: spipitku <spipitku@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/27 16:49:39 by spipitku          #+#    #+#             */
-/*   Updated: 2023/09/02 17:38:47 by spipitku         ###   ########.fr       */
+/*   Updated: 2023/09/04 12:54:05 by spipitku         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 size_t	find_word(const char *big, const char *little, size_t i, size_t len)
 {
 	size_t		j;
-	size_t	clone_i;
+	size_t		clone_i;
 
 	clone_i = i;
 	j = 0;
@@ -28,8 +28,9 @@ size_t	find_word(const char *big, const char *little, size_t i, size_t len)
 	return (j);
 }
 
-size_t	send_string(const char *big, const char *little, size_t len, size_t *i_main)
-{
+size_t	send_string(const char *big, const char *little, size_t len, \
+		size_t *i_main)
+	{
 	size_t	j;
 	size_t	i;
 	size_t	clone_len;

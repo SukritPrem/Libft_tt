@@ -6,7 +6,7 @@
 /*   By: spipitku <spipitku@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/26 20:02:33 by spipitku          #+#    #+#             */
-/*   Updated: 2023/09/03 19:31:12 by spipitku         ###   ########.fr       */
+/*   Updated: 2023/09/04 12:50:51 by spipitku         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,7 +41,7 @@ char	*word_insert(const char *s, size_t ptr, unsigned char c)
 {
 	size_t		i;
 	size_t		j;
-	char	*word;
+	char		*word;
 
 	j = 0;
 	i = ptr;
@@ -62,7 +62,7 @@ char	**insert_word_to_splite(size_t all_word, char const *s, char c)
 {
 	size_t		i;
 	size_t		j;
-	char	**splite;
+	char		**splite;
 	size_t		length;
 
 	length = ft_strlen(s);
@@ -89,7 +89,7 @@ char	**insert_word_to_splite(size_t all_word, char const *s, char c)
 
 char	**return_null(char ***s, size_t j)
 {
-	char	**splite;
+	char		**splite;
 	size_t		i;
 
 	splite = *s;
@@ -112,7 +112,7 @@ char	**return_null(char ***s, size_t j)
 char	**ft_split(char const *s, char c)
 {
 	size_t		i;
-	char	**splite;
+	char		**splite;
 
 	splite = NULL;
 	if (!s)

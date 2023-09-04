@@ -6,7 +6,7 @@
 /*   By: spipitku <spipitku@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/26 20:21:08 by spipitku          #+#    #+#             */
-/*   Updated: 2023/09/03 18:31:26 by spipitku         ###   ########.fr       */
+/*   Updated: 2023/09/04 12:51:50 by spipitku         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,7 +30,7 @@ int	put_s1_s2_to_ptr(char **ptr, char const *s1, char const *s2)
 char	*ft_strjoin(char const *s1, char const *s2)
 {
 	size_t		sum_len;
-	char	*ptr;
+	char		*ptr;
 	size_t		i;
 
 	i = 0;

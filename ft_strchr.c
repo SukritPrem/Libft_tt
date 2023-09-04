@@ -6,7 +6,7 @@
 /*   By: spipitku <spipitku@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/26 19:38:40 by spipitku          #+#    #+#             */
-/*   Updated: 2023/09/03 19:48:23 by spipitku         ###   ########.fr       */
+/*   Updated: 2023/09/04 12:51:14 by spipitku         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 char	*ft_strchr(const char *s, int c)
 {
 	size_t			i;
-	const char	*ptr;
+	const char		*ptr;
 
 	ptr = s;
 	i = 0;

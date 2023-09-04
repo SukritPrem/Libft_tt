@@ -6,7 +6,7 @@
 /*   By: spipitku <spipitku@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/27 16:13:31 by spipitku          #+#    #+#             */
-/*   Updated: 2023/09/02 17:25:23 by spipitku         ###   ########.fr       */
+/*   Updated: 2023/09/04 12:55:44 by spipitku         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,7 @@ static char	*zero(void)
 
 char	*ft_substr(char const *s, unsigned int start, size_t len)
 {
-	char	*ptr;
+	char		*ptr;
 	size_t		i;
 
 	i = 0;
