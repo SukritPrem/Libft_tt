@@ -34,15 +34,12 @@ size_t	send_string(const char *big, const char *little, size_t len, \
 	size_t	j;
 	size_t	i;
 	size_t	clone_len;
-	size_t	before;
 
-	before = len;
 	clone_len = len;
 	i = 0;
 	j = 0;
 	while (len-- && *(big + i))
 	{
-		before = i;
 		if (*(big + i) == *(little + j))
 			j = find_word(big, little, i, clone_len);
 		if (j == ft_strlen(little))
